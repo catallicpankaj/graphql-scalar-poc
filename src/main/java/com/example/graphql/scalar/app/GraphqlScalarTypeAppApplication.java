@@ -11,5 +11,3 @@ public class GraphqlScalarTypeAppApplication {
 	}
 
 }
-
-//https://www.baeldung.com/java-bootstrap-jpa
