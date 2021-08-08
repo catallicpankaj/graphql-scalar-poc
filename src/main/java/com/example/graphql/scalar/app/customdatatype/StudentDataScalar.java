@@ -85,7 +85,7 @@ public class StudentDataScalar {
                     result.set(objectField.getName(), parseJsonValue(objectField.getValue(), variables)));
             return result;
         }
-        //Should never happen
+        //Any other instance throw exception... 
         throw new CoercingParseLiteralException("Unknown scalar AST type: " + value.getClass().getName());
     }
 
